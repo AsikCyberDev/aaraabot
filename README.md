@@ -5,7 +5,7 @@ A customizable ChatBot web component built with LitElement.
 ## Installation
 
 ```bash
-npm install your-chatbot-web-component
+npm install aaraabot-web-component
 ```
 
 ## Usage
