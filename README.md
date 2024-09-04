@@ -12,7 +12,7 @@ npm install aaraabot-web-component
 
 ```html
 <script type="module">
-  import 'your-chatbot-web-component';
+  import 'aaraabot-web-component';
 </script>
 
 <chat-bot
