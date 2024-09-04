@@ -1,0 +1,29 @@
+{
+  "name": "aaraabot-web-component",
+  "version": "1.0.0",
+  "description": "A Web Component for chatbot functionality usable across any framework.",
+  "main": "dist/chatbot.cjs.js",
+  "module": "dist/chatbot.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "keywords": [
+    "chatbot",
+    "web-component",
+    "lit",
+    "framework-agnostic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.0.0",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  }
+}
